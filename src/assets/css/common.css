@@ -1,0 +1,127 @@
+body{
+	padding: 0;
+	margin: 0
+}
+
+/* reset */
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+/* basic */
+.text-center{
+	text-align: center
+}
+.text-left{
+	text-align: left
+}
+.fl{
+	float: left
+}
+
+/* layout */
+.demo-header,.demo-foot{
+	position: absolute;
+	left: 0;
+	width: 100%
+}
+.demo-head{
+	top: 0
+}
+.demo-foot{
+	bottom: 0
+}
+.demo-content{
+	position: absolute;
+	top: 56px;
+	bottom: 56px;
+	width: 100%;
+	overflow-y: auto
+}
+
+
+/* login */
+.login-wap{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20%
+}
+.demo-tab,.demo-tab-content{
+	position: absolute
+}
+.demo-tab{
+	top: 0;
+	left: 0;
+
+}
+.demo-tab-content{
+	top: 48px;
+	bottom: 0;
+	width: 100%;
+	overflow-y: auto
+}
+
+.load-size .mu-circle-wrapper{
+	width: 50px!important;
+	height: 50px!important
+}
+
+.demo-book-list{
+	padding: 20px;
+}
+.demo-book-list p{
+	margin: 0;
+	height: 60px
+}
+.demo-book-basic{
+	padding: 10px;
+	overflow: hidden
+}
+.demo-book-basic .img-wap{
+	width: 30%
+}
+.demo-book-basic .text-wap{
+	width: 65%;
+	margin-left: 35%
+}
+.demo-book-basic .text-wap h3{
+	margin-top: 0;
+	font-size: 16px
+}
+.demo-book-basic .text-wap p{
+	margin:5px 0 0;
+	color: #999
+}
+.demo-book-tab{
+	background-color: #fff;
+	border-bottom: 1px #eee solid;
+	color: #666;
+	overflow: hidden
+}
+.demo-book-tab li{
+	float: left;
+	width: 50%;
+	height: 32px;
+	line-height: 32px;
+	text-align: center
+}
+.demo-book-tab li.active:after{
+	position: relative;
+	bottom: 2px;
+	content: "";
+	display: block;
+	width: 30px;
+	height: 3px;
+	background-color: #666;
+	margin: auto
+}
+.demo-book-cont{
+	padding: 10px;
+	font-size: 14px;
+	line-height: 1.5
+}
+.demo-catalog-list li{
+	padding: 5px 0
+}
